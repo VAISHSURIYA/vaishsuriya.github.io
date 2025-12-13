@@ -1,0 +1,67 @@
+/* 🌈 COLORS & LAYOUT */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  color: white;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 5px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+/* CARDS (skills & projects) */
+.cards {
+  display: grid;
+  gap: 15px;
+  padding: 10px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+/* LINKS */
+a {
+  color: #ffeb3b;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
