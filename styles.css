@@ -23,6 +23,16 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.social-icons .icon-link {
+  color: white;         /* icon color */
+  margin: 0 10px;       /* spacing */
+  transition: 0.3s;
+}
+
+.social-icons .icon-link:hover {
+  color: #ffeb3b;       /* changes color when hovered */
+  transform: scale(1.2);
+}
 
 
 /* HEADER */
