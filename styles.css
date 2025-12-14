@@ -20,6 +20,9 @@ body {
 }
 
 /* Other styles remain the same */
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* HEADER */
