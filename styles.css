@@ -70,6 +70,22 @@ h1 {
   width: 90%;
   max-width: 800px;
 }
+/* 💼 Resume Button */
+.cv-btn {
+  display: inline-block;
+  background: #ffeb3b;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background: #fdd835;
+  transform: scale(1.05);
+}
 
 .section h2 {
   margin-bottom: 15px;
