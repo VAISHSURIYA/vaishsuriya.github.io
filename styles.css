@@ -33,6 +33,21 @@ html {
   color: #ffeb3b;       /* changes color when hovered */
   transform: scale(1.2);
 }
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between image and text */
+  justify-content: center;
+}
+
+.profile-img {
+  width: 120px;   /* size of profile image */
+  height: 120px;
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;  /* keeps aspect ratio */
+  border: 3px solid #fff;
+}
+
 
 
 /* HEADER */
@@ -84,6 +99,29 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px auto;
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.project-img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover; /* keeps it looking good */
+  border-radius: 8px;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
 
 /* FOOTER */
 footer {
