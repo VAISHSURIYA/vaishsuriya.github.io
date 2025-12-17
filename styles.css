@@ -71,6 +71,22 @@ html {
   transform: scale(1.2);
 }
 
+/* Make all project images responsive and neat */
+.project-img {
+  width: 100%;           /* takes full width of its container */
+  max-width: 300px;      /* optional max size */
+  height: auto;          /* keeps proportions correct */
+  object-fit: cover;     /* prevents distortion */
+  border-radius: 10px;   /* soft rounded corners */
+  margin-bottom: 12px;   /* space below image */
+}
+
+/* Optional: center project cards */
+.project-card {
+  text-align: center;
+  margin: 20px auto;
+}
+
 /* 🌟 Make social icons the same size */
 .social-icons-container {
   text-align: center;
