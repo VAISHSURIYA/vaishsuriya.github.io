@@ -47,6 +47,30 @@ html {
   object-fit: cover;  /* keeps aspect ratio */
   border: 3px solid #fff;
 }
+/* Social Icons */
+.social-icons .icon-link {
+  color: white;               /* color for Font Awesome icons */
+  margin: 0 12px;             /* spacing */
+  transition: 0.3s;
+}
+
+.social-icons .icon-link:hover {
+  color: #ffeb3b;            /* hover color */
+  transform: scale(1.2);
+}
+
+/* Custom image icon for LeetCode */
+.custom-social-icon {
+  width: 36px;
+  height: 36px;
+  margin: 0 12px;
+  transition: 0.3s;
+}
+
+.custom-social-icon:hover {
+  transform: scale(1.2);
+}
+
 
 
 
