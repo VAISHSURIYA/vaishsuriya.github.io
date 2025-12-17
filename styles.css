@@ -71,6 +71,41 @@ html {
   transform: scale(1.2);
 }
 
+/* 🌟 Make social icons the same size */
+.social-icons-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-icons-container a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Font Awesome icons */
+.social-icons-container i {
+  font-size: 36px; /* same size for GitHub, LinkedIn, HackerRank */
+  color: white;
+  transition: 0.3s;
+}
+
+.social-icons-container i:hover {
+  color: #ffeb3b;
+  transform: scale(1.2);
+}
+
+/* Custom image icons like LeetCode */
+.social-icons-container img.custom-social-icon {
+  width: 36px;   /* match Font Awesome icon size */
+  height: 36px;  /* match Font Awesome icon size */
+  object-fit: contain; /* keeps image centered and scaled */
+  transition: 0.3s;
+}
+
+.social-icons-container img.custom-social-icon:hover {
+  transform: scale(1.2);
+}
+
 
 
 
