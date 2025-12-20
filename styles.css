@@ -206,15 +206,15 @@ html {
   color: white;
   font-weight: 500;
 }
-/* --- Gallery images show entire photo without cropping --- */
+/* --- Gallery images show entire photo without cropping 
 .gallery-item img {
   width: 100%;
-  height: auto;        /* maintains real proportions */
-  object-fit: contain;  /* shows whole image */
-  max-height: 180px;    /* keeps images similar height */
+  height: auto;        
+  object-fit: contain;  
+  max-height: 180px;    
   margin-top: 5px;
   margin-bottom: 5px;
-}
+} --- */
 
 /* ==== Bigger, Responsive Gallery & Project Images ==== */
 .gallery-grid,
